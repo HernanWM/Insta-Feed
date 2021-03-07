@@ -1,17 +1,17 @@
 body{
     background-color: rgb(212, 212, 212);
+    font-size: 1em;
 }
 
 .container {
  width: 600px;
- height: auto;
- 
-
+ height: auto
 }
 
 .card{
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 1em;
     
 
 }
@@ -22,7 +22,18 @@ img{
 
 .card-body{
     width: 100%;
-    padding-left: 0em;
-    padding-right: 0em;
+    
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}
+
+.card-title{
+    height: 40px;
+    padding: 0.5em;
+}
+
+.card-text{
+    padding: 1.5em 1.5em 1.5em 1.5em
     
 }
+
